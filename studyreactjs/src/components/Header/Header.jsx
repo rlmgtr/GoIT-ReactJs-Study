@@ -4,6 +4,7 @@ const Header = () => {
     <header>
       <h1>this is a sample header </h1>
     </header>
+    
     </div>
  
   )

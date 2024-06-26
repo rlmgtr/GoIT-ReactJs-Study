@@ -1,4 +1,4 @@
-const PorkAdobo = {
+export const PorkAdobo = {
     Name: "Pork Adobo",
     Ingridients: {
         Meat: "500 grams Pork",
@@ -10,7 +10,7 @@ const PorkAdobo = {
     Type: "Filipino"
 }
 
-const BeefSinigang = {
+export const BeefSinigang = {
     Name: "Beef Sinigang",
     Ingridients: {
         Meat: "500 grams Beef",
