@@ -1,12 +1,25 @@
+import {RecipeListItem} from "../../RecipeListItem/RecipeListItem";
+
 export const RecipeList = ({DataRecipes}) => {
+
+
 return ( 
 <div>
 <ul>
-  {DataRecipes.map(DataRecipe => (
-    <li>
-    <h3>{DataRecipe.name}</h3>
-    <img src={DataRecipe.image} width="250" height="200" alt="Recipe image"/>
-    </li>
+  {DataRecipes.map( ({id, name, time, servings, calories, image, difficulty }) => (
+    
+
+ <RecipeListItem 
+ key={id} 
+ name={name} 
+ time={time} 
+ servings={servings} 
+ calories={calories} 
+ image={image} 
+ difficulty={difficulty}
+ />
+
+    
   ))}
  
 </ul>
