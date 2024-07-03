@@ -1,0 +1,9 @@
+.listitemdiv {
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 270px;
+    height: 500px;
+    padding-top: 20px;
+}

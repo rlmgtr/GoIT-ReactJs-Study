@@ -1,4 +1,4 @@
-
+import css from './RecipeListItem-module.css'
 
 export const RecipeListItem = ({
     name,
@@ -11,6 +11,7 @@ export const RecipeListItem = ({
     
   const isEasy = false; 
   return (
+    <div class="listitemdiv">
     <li>
       <img src={image} alt="food image" width="250" height="200"/>
       <h3>{name}</h3>
@@ -26,6 +27,7 @@ export const RecipeListItem = ({
         
       </div>
     </li>
+    </div>
   );
 };
 
