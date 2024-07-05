@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import DataRecipes from './Data/DataRecipes.json';
 import {RecipeList} from './components/RecipeList/RecipeList';
 import State from './components/EventandState/State';
+import TestUseState from './components/TestUseState/TestUseState';
 
 
 
@@ -14,8 +15,9 @@ export const App = () => {
 <div>
 <Header/>
 <button onClick={testbuttonn}>test button 2</button>
-<RecipeList DataRecipes={DataRecipes}/>
-<State/>
+{/*<RecipeList DataRecipes={DataRecipes}/> */}
+{/* <State/> */}
+<TestUseState/>
 <Footer/>
 </div>
 )
