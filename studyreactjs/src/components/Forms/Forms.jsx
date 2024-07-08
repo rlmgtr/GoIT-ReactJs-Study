@@ -1,6 +1,18 @@
 import css from './Froms-style.css'
 
 const Forms = () => {
+
+const contact = {
+Name: '',
+Number: '',
+};
+
+
+const addContact = () => {
+  
+};
+
+
   return (
     <div>
       <div class="formStyle">

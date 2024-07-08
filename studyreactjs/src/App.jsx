@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import State from './components/EventandState/State';
+import Footer from './components/Footer/Footer'; 
 import Forms from './components/Forms/Forms';
 
 const testbuttonn = () => {alert("this is for the test button")};
