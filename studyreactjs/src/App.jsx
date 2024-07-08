@@ -9,8 +9,8 @@ export const App = () => {
     return (
 <div>
 <Header/>
-<Reviews/>
 <button onClick={testbuttonn}>test button 2</button>
+<Reviews/>
 <Footer/>
 </div>
 
