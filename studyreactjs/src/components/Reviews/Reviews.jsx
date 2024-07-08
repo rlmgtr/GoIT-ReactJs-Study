@@ -8,6 +8,13 @@ const state = {
   bad: 1,
 };
 
+const totalReviews = () => { 
+  
+  return state.good + state.neutral + state.bad;
+
+
+};
+
   return (
     <div>
      <div>
@@ -20,10 +27,12 @@ const state = {
 <br></br>
   Good:<span>{state.good}</span>
   <br></br>
-  Neutral:<span>{}</span>
+  Neutral:<span>{state.neutral}</span>
   <br></br>
-  Bad:<span>{}</span>
+  Bad:<span>{state.bad}</span>
   <br></br>
+
+  Total Reviews: <span>{totalReviews()}</span>
 </div>
 
 

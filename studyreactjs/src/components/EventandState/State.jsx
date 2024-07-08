@@ -10,11 +10,11 @@ const State = () => {
   return (
     <div>
         <div>
-            Good: <span></span>
+            Good: <span>{this.state.good}</span>
             <br></br>
-            Nuetral: <span></span>
+            Nuetral: <span>{this.state.nuetral}</span>
             <br></br>
-            Bad: <span></span>
+            Bad: <span>{this.state.bad}</span>
         </div>
       
     </div>
