@@ -1,5 +1,6 @@
-import UseState from "./Hooks/UseState";
-
+import UseStateSample from './Hooks/UseStateSample'
+import UseStateSampleTwo from './Hooks/UseStateSampleTwo';
+import UseStateSampleThree from './Hooks/UseStateSampleThree';
 
 
 
@@ -8,9 +9,15 @@ import UseState from "./Hooks/UseState";
 export const App = () => {
     return (
 <div>
-<UseState/>
+<UseStateSample />
+<UseStateSampleTwo />
+<UseStateSampleThree />
 </div>
 )
 };
 
 export default App;
+
+
+
+// https://www.youtube.com/watch?v=lv0wQ54GEA8
