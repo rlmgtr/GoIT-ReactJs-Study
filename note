@@ -1,0 +1,4 @@
+// useState - props and state control
+// useEffects - creates side effect (take note, this is outside the logic loop)
+// useContext - pass the value to different components - application is best in usernames
+// useCallback - applied to specific component that only need changing so that it will not rerender the entre DOM
