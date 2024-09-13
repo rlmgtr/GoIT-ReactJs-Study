@@ -1,4 +1,8 @@
 // useState - props and state control
 // useEffects - creates side effect (take note, this is outside the logic loop)
 // useContext - pass the value to different components - application is best in usernames
-// useCallback - applied to specific component that only need changing so that it will not rerender the entre DOM
+// useCallback - applied to specific component that only need changing so that it will not rerender the entre DOM (simply caches a function)
+// useMemo - caches values so that when the same result appeared, it will not take longer for the output to be displayed. 
+
+
+https://www.youtube.com/watch?v=yCS2m01bQ6w&list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A&index=28
